@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    >
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Replaced android.support.v7.widget.RecyclerView with the new EmptyRecyclerView -->
+        <com.example.newsverse.EmptyRecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <!-- Empty view is only visible when the list has no items. -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/colorBackground"
+        android:id="@+id/errorLayout"
+        android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/errorImage"
+        android:src="@drawable/no_result"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/error_image" />
+
+    <TextView
+        android:id="@+id/errorTitle"
+        android:text="@string/error_title"
+        android:textColor="@color/colorTextTitle"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/errorImage"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:text="@string/error_message"
+        android:textColor="@color/colorTextSubtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/errorTitle"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retry"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_below="@id/errorMessage"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <!-- Loading indicator is only shown before the first load -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
+</RelativeLayout>

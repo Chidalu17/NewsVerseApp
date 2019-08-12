@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorBackground">#f9f9fa</color>
+    <color name="colorTextSubtitle">#4e4e4e</color>
+    <color name="colorTextTitle">#262626</color>
+
+
+    <!-- Colors for gradient.xml file -->
+    <color name="gradient_center_color">#880d0d0f</color>
+    <color name="gradient_end_color">#885d5d5e</color>
+    <color name="gradient_start_color">#880f0f10</color>
+
+    <color name="color_trail_text">#102027</color>
+    <color name="color_date_text">#a4a4a4</color>
+
+    <color name="color_app_bar_text">#008577</color>
+    <color name="color_tab_text">#4db6ac</color>
+
+    <color name="nav_bar_start">#26a69a</color>
+    <color name="nav_bar_end">#00796b</color>
+</resources>

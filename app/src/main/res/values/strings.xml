@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">NewsVerse</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="Home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings for items in activity_main_drawer.xml -->
+    <string name="ic_title_home">Home</string>
+    <string name="ic_title_world">World</string>
+    <string name="ic_title_science">Science</string>
+    <string name="ic_title_sport">Sport</string>
+    <string name="ic_title_environment">Environment</string>
+    <string name="ic_title_society">Society</string>
+    <string name="ic_title_fashion">Fashion</string>
+    <string name="ic_title_business">Business</string>
+    <string name="ic_title_culture">Culture</string>
+
+    <!-- Text to display in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">You are offline. \nPlease check your Internet
+        connection.</string>
+
+    <!-- Content description of the image -->
+    <string name="image_des">Image</string>
+    <string name="image_des_ic_share">Share</string>
+
+    <string name="updated_just_now">Updated just now</string>
+    <string name="share_article">Share Article</string>
+
+    <string name="the_guardian">theguardian</string>
+
+    <!-- Strings for Section -->
+    <string name="world">world</string>
+    <string name="science">science</string>
+    <string name="sport">sport</string>
+    <string name="environment">environment</string>
+    <string name="society">society</string>
+    <string name="fashion">fashion</string>
+    <string name="business">business</string>
+    <string name="culture">culture</string>
+
+    <string name="hint_num_of_items">Between 1 and 50</string>
+
+    <!--Strings to be used for the Preference Labels -->
+    <string name="settings_number_of_items_label">Number of Items</string>
+    <string name="settings_number_of_items_key" translatable="false">number_of_items</string>
+    <string name="settings_number_of_items_default" translatable="false">10</string>
+
+    <!-- Strings for Order-By preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20]-->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Strings for From Date preference [CHAR LIMIT=30] -->
+    <string name="settings_from_date_label">From Date</string>
+    <string name="settings_from_date_key" translatable="false">from date</string>
+    <string name="settings_from_date_default" translatable="false">2010-01-01</string>
+
+    <!-- Strings for Order Date preference [CHAR LIMIT=30] -->
+    <string name="settings_order_date_label">Order Date</string>
+    <string name="settings_order_date_key" translatable="false">order date</string>
+    <string name="settings_order_date_default" translatable="false">@string/settings_order_date_published_value</string>
+
+    <!-- Label for order-date published option [CHAR LIMIT=20]-->
+    <string name="settings_order_date_published_label">Published</string>
+    <string name="settings_order_date_published_value" translatable="false">published</string>
+
+    <!-- Label for order-date newspaper-edition option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_newspaper_edition_label">Newspaper Edition</string>
+    <string name="settings_order_date_newspaper_edition_value" translatable="false">newspaper-edition</string>
+
+    <!-- Label for order-date last-modified option [CHAR LIMIT=30]-->
+    <string name="settings_order_date_last_modified_label">Last Modified</string>
+    <string name="settings_order_date_last_modified_value" translatable="false">last-modified</string>
+
+    <!-- Strings for Color-Theme preference [CHAR LIMIT=30] -->
+    <string name="settings_color_label">Color Theme</string>
+    <string name="settings_color_key">color theme</string>
+    <string name="settings_color_default">white</string>
+
+    <!-- Label for color theme white preference [CHAR LIMIT=20] -->
+    <string name="settings_color_white_label">White</string>
+    <string name="settings_color_white_value">white</string>
+
+    <!-- Label for color theme sky blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_sky_blue_label">Sky Blue</string>
+    <string name="settings_color_sky_blue_value">sky blue</string>
+
+    <!-- Label for color theme dark blue preference [CHAR LIMIT=20] -->
+    <string name="settings_color_dark_blue_label">Dark Blue</string>
+    <string name="settings_color_dark_blue_value">dark blue</string>
+
+    <!-- Label for color theme violet preference [CHAR LIMIT=20] -->
+    <string name="settings_color_violet_label">Violet</string>
+    <string name="settings_color_violet_value">violet</string>
+
+    <!-- Label for color theme light green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_light_green_label">Light Green</string>
+    <string name="settings_color_light_green_value">light green</string>
+
+    <!-- Label for color theme green preference [CHAR LIMIT=20] -->
+    <string name="settings_color_green_label">Green</string>
+    <string name="settings_color_green_value">green</string>
+
+    <!-- Strings for Text Size preference [CHAR LIMIT=30] -->
+    <string name="settings_text_size_label">Text Size</string>
+    <string name="settings_text_size_key" translatable="false">text size</string>
+    <string name="settings_text_size_default" translatable="false">@string/settings_text_size_medium_value</string>
+
+    <!-- Label for text size small preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_small_label">Small</string>
+    <string name="settings_text_size_small_value" translatable="false">small</string>
+
+    <!-- Label for text size medium preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_medium_label">Medium</string>
+    <string name="settings_text_size_medium_value" translatable="false">medium</string>
+
+    <!-- Label for text size large preference [CHAR LIMIT=20] -->
+    <string name="settings_text_size_large_label">Large</string>
+    <string name="settings_text_size_large_value" translatable="false">large</string>
+    <string name="ic_menu_entertainment">Entertainment</string>
+    <string name="ic_nav_health">Health</string>
+    <string name="ic_nav_technology">Technology</string>
+    <string name="ic_title_entertainment">Entertainment</string>
+    <string name="ic_title_health">Health</string>
+    <string name="ic_title_technology">Technology</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_country_key">select country</string>
+
+
+
+    <string name="united_arab_emirates_label">United Arab Emirates</string>
+    <string name="argentina_label">Argentina</string>
+    <string name="austria_label">Austria</string>
+    <string name="australia_label">Australia</string>
+    <string name="belgium_label">Belgium</string>
+    <string name="bulgaria_label">Bulgaria</string>
+    <string name="brazil_label">Brazil</string>
+    <string name="canada_label">Canada</string>
+    <string name="switzerland_label">Switzerland</string>
+    <string name="china_label">China</string>
+    <string name="colombia_label">Colombia</string>
+    <string name="cuba_label">Cuba</string>
+    <string name="czech_republic_label">Czech Republic</string>
+    <string name="germany_label">Germany</string>
+    <string name="egypt_label">Egypt</string>
+    <string name="france_label">France</string>
+    <string name="great_britain_label">Great Britain (U.K)</string>
+    <string name="greece_label">Greece</string>
+    <string name="hong_kong_label">Hong Kong</string>
+    <string name="hungary_label">Hungary</string>
+    <string name="indonesia_label">Indonesia</string>
+    <string name="ireland_label">Ireland</string>
+    <string name="isreal_label">Israel</string>
+    <string name="india_label">India</string>
+    <string name="italy_label">Italy</string>
+    <string name="japan_label">Japan</string>
+    <string name="korea_south_label">Korea (South)</string>
+    <string name="lithuania_label">Lithuania</string>
+    <string name="latvia_label">Latvia</string>
+    <string name="morocco_label">Morocco</string>
+    <string name="mexico_label">Mexico</string>
+    <string name="malaysia_label">Malaysia</string>
+    <string name="nigeria_label">Nigeria</string>
+    <string name="netherlands_label">Netherlands</string>
+    <string name="norway_label">Norway</string>
+    <string name="new_zealand_aotearoa__label">New Zealand (Aotearoa)</string>
+    <string name="philippines_label">Philippines</string>
+    <string name="poland_label">Poland</string>
+    <string name="portugal_label">Portugal</string>
+    <string name="romania_label">Romania</string>
+    <string name="serbia_label">Serbia</string>
+    <string name="russia_federation_label">Russia Federation</string>
+    <string name="saudi_arabia_label">Saudi Arabia</string>
+    <string name="sweden_label">Sweden</string>
+    <string name="singapore_label">Singapore</string>
+    <string name="slovenia_label">Slovenia</string>
+    <string name="slovak_republic_label">Slovak</string>
+    <string name="thailand_label">Thailand</string>
+    <string name="turkey_label">Turkey</string>
+    <string name="taiwan_label">Taiwan</string>
+    <string name="ukraine_label">Ukraine</string>
+    <string name="united_states_label">United States</string>
+    <string name="venezuela_label">Venezuela</string>
+    <string name="south_africa_label">South Africa</string>
+    <string name="settings_select_your_country_key">select_your_country</string>
+    <string name="settings_select_your_country">Select Your Country</string>
+
+
+    <string name="argentina_values">ar</string>
+    <string name="austria_values">at</string>
+    <string name="australia_values">au</string>
+    <string name="belgium_values">be</string>
+    <string name="bulgaria_values">bg</string>
+    <string name="brazil_values">br</string>
+    <string name="canada_values">ca</string>
+    <string name="switzerland_values">ca</string>
+    <string name="china_values">cn</string>
+    <string name="colombia_values">co</string>
+    <string name="cuba_values">cu</string>
+    <string name="czech_republic_values">cz</string>
+    <string name="germany_values">de</string>
+    <string name="egypt_values">eg</string>
+    <string name="france_values">fr</string>
+    <string name="great_britain_values">gb</string>
+    <string name="greece_values">gr</string>
+    <string name="hong_kong_values">hk</string>
+    <string name="hungary_values">hu</string>
+    <string name="indonesia_values">id</string>
+    <string name="ireland_values">id</string>
+    <string name="isreal_values">il</string>
+    <string name="india_values">in</string>
+    <string name="italy_values">it</string>
+    <string name="japan_values">jp</string>
+    <string name="korea_south_values">kr</string>
+    <string name="lithuania_values">lt</string>
+    <string name="latvi_values">lv</string>
+    <string name="mexico_values">mx</string>
+    <string name="malaysia_values">my</string>
+    <string name="nigeria_values">ng</string>
+    <string name="netherlands_values">nl</string>
+    <string name="norway_values">no</string>
+    <string name="new_zealand_aotearoa__values">nz</string>
+    <string name="philippines_values">ph</string>
+    <string name="poland_values">pl</string>
+    <string name="portugal_values">pt</string>
+    <string name="romania_values">ro</string>
+    <string name="serbia_values">rs</string>
+    <string name="russia_federation_values">ru</string>
+    <string name="saudi_arabia_values">sa</string>
+    <string name="sweden_values">se</string>
+    <string name="singapore_values">sg</string>
+    <string name="slovenia_values">si</string>
+    <string name="slovak_republic_values">sk</string>
+    <string name="thailand_values">th</string>
+    <string name="turkey_values">tr</string>
+    <string name="taiwan_values">tw</string>
+    <string name="ukraine_values">ua</string>
+    <string name="united_states_values">us</string>
+    <string name="venezuela_values">ve</string>
+    <string name="south_africa_values">za</string>
+    <string name="morocco_values">ma</string>
+    <string name="united_arab_emirates_values">ae</string>
+
+
+    <string name="settings_country_by_default" translatable="false">us</string>
+    <string name="backdrop">Backdrop</string>
+
+    <string name="img2">img2</string>
+    <string name="img">img</string>
+    <string name="news_for_you">News for you</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="a_time_ago">a time ago</string>
+    <string name="title_of_news">Title of News</string>
+    <string name="error_title">Error Title</string>
+    <string name="retry">Retry</string>
+    <string name="error_image">error image</string>
+    <string name="error_message">Error Message</string>
+    <string name="time">Time</string>
+    <string name="author">Author</string>
+    <string name="date_jan">01 January 1990</string>
+    <string name="title">Title</string>
+    <string name="desc">Desc</string>
+    <string name="source">Source</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="open_with_browser">Open with browser</string>
+    <string name="date">date1</string>
+    <string name="_01_january_1990">01 January 1990</string>
+    <string name="ic_title_general">General</string>
+
+
+</resources>
